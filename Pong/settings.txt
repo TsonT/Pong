@@ -1,0 +1,8 @@
+Color of paddles(black, red, green, blue, white): white
+Color of ball(black, red, green, blue, white): white
+Color of background (black, red, green, blue, white): black
+Left paddle name: P1
+
+Ball speed x: 4
+Ball speed y: 3
+Points to win: 3

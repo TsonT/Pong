@@ -1,0 +1,37 @@
+HOW THE GAME WORKS:
+	This is a 2 player game where the palyers use the keyboard to control a paddle on either side of the screen.
+	The goal of the game is for each player to move their paddles to block a ball from reaching their side of the screen.
+	If the ball reaches a players side then the opposing player gains 1 point.
+	The ball is then placed back in the middle and once a player moves a paddle then the ball is served towards the
+		player that got scored on.
+	Once a player reaches the amount of points needed to win (by default 3, but this can be changed in the settings)
+		then the player is declared the winner and the game must be exited.
+	The date of each game and the winner is also recorded in the GameLog.txt file
+
+CONTROLS:
+	The player on the left uses the "w" key to move the paddle up, and the "s" key to move the paddle down.
+	The player on the right uses the "up arrow" key to move the paddle up, and the "down arrow" key to move the paddle down.
+
+SETTINGS:
+	The settings of the game can be changed by editing the "settings.txt" document. The settings include:
+		The color of the paddle
+		The color of the ball
+		The color of the background
+		The left players name
+		The right players name
+		The x and y speed of the ball
+		The required points to win
+	These settings may be imported into the game by including the name of the settings document in the command line.
+	If no document is included the defualt settings will be used.
+		"white"
+		"white"
+		"black"
+		"P1"
+		"P2"
+		4, 3
+		3
+	If an invalid option is typed then the defualt value will be used for that option
+
+HOW TO START:
+	Run the command "Java Pong" for defualt
+	Rune the command "Java Pong settings.txt" to import the settings
